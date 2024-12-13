@@ -49,7 +49,7 @@ const Header = () => {
           <div className='principal'>
               <div className='redes'>
                   <ul>
-                      <li><a href="https://www.facebook.com/?locale=es_LA"><i className='bx bxl-facebook'></i></a></li>
+                      <li><a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i className='bx bxl-facebook'></i></a></li>
                       <li><a href=""><i className='bx bxl-instagram'></i></a></li>
                       <li><a href=""></a><i className='bx bxl-youtube'></i></li>
                   </ul>
