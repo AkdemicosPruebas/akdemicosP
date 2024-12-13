@@ -49,7 +49,7 @@ const Header = () => {
           <div className='principal'>
               <div className='redes'>
                   <ul>
-                      <li><a href="https://www.facebook.com/?locale=es_LA"></a><i className='bx bxl-facebook'></i></li>
+                      <li><a href="https://www.facebook.com/?locale=es_LA"><i className='bx bxl-facebook'></i></a></li>
                       <li><a href=""><i className='bx bxl-instagram'></i></a></li>
                       <li><a href=""></a><i className='bx bxl-youtube'></i></li>
                   </ul>
@@ -88,7 +88,7 @@ const Header = () => {
             ):(<ul className='menu-horizontal'>
               <li><a href="">Proyectos</a></li>
               <li>
-                <a className='trian-curso' href=""> <span className='ali'>Cursos  <img src="/public/Lista.svg" alt="Lista" /></span></a>
+                <a className='trian-curso' href=""> <span className='ali'>Cursos  <img src="/Lista.svg" alt="Lista" /></span></a>
                 <ul className='horizontal'>
                   <li>
                     <ul className='vertical'>
