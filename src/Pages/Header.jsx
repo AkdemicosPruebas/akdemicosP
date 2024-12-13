@@ -49,7 +49,7 @@ const Header = () => {
           <div className='principal'>
               <div className='redes'>
                   <ul>
-                      <li><a href=""></a><i className='bx bxl-facebook'></i></li>
+                      <li><a href="https://www.facebook.com/?locale=es_LA"></a><i className='bx bxl-facebook'></i></li>
                       <li><a href=""><i className='bx bxl-instagram'></i></a></li>
                       <li><a href=""></a><i className='bx bxl-youtube'></i></li>
                   </ul>
@@ -63,7 +63,7 @@ const Header = () => {
 
         <div className={  isScrolled ? 'div-secundario scrolled ' : 'div-secundario'}>
         <div className='secundario'>
-          <Link to={"/"} ><div className='logo'><img src="/public/Akademicos.svg" alt="Logo" /></div></Link>
+          <Link to={"/"} ><div className='logo'><img src="/Akademicos.svg" alt="Logo" /></div></Link>
         
           <nav>
             {anchoPantalla<769 ?( 
