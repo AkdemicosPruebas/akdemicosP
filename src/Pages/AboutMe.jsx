@@ -4,7 +4,7 @@ const AboutMe = () => {
       <div className="containerAboutme">
           <div className="contenidoAbout">
             <div className="ImagenAbout">
-              <img className="FotoAbout" src="/public/Yo.svg" alt="yo" />
+              <img className="FotoAbout" src="/Yo.svg" alt="yo" />
             </div>
             <div className="textoAbout">
               <span>Soy <b>Luis Alberto Seña Ávila</b>, físico egresado de la universidad de Córdoba de Colombia en el año 2024.  
