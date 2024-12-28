@@ -1,4 +1,4 @@
-import CursoCard from "./cursoCard";
+import CursoCard from "./CursoCard";
 import "../Styles/CursosCard.css"
 
 const CursosCard = ({seccionCurso}) => {        
