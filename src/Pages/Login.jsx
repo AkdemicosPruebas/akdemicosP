@@ -41,7 +41,7 @@ const Login = () => {
                         <i onClick={handleRegister}  className='bx bx-arrow-back'></i>
                     </div>
                 <div className='logo_form'>
-                    <img src="/public/Ak.svg" alt="Logo" />
+                    <img src="/Ak.svg" alt="Logo" />
                 </div>
                 <div className='Registrar'>
                     <h3>Crear una cuenta</h3>
@@ -77,7 +77,7 @@ const Login = () => {
             <div className='conten-form'>
                 <form className='formulario' onSubmit={handleSubmit(submit)}>
                     <div className='logo_form'>
-                        <img src="/public/Ak.svg" alt="Logo" />
+                        <img src="/Ak.svg" alt="Logo" />
                     </div>
                     <div className='iniciar'>
                         <h3>Iniciar sesión</h3>
