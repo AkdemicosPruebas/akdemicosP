@@ -12,7 +12,7 @@ const CompDropdown = ({desplegar,referencia1,funciones}) => {
     return (
         <div className='dropdown_list'>
             <div className="dropdown_link" onClick={toggleMostrar}>
-               <img className={`lista ${mostrardrop ? 'rotar' : ''}`} src="/public/bx-chevron-right.svg" alt="lista" />
+               <img className={`lista ${mostrardrop ? 'rotar' : ''}`} src="/bx-chevron-right.svg" alt="lista" />
                <span className='dropcapitulo' onClick={()=>{
                     funciones.current?.scrollIntoView({behavior:"smooth"})}}>{desplegar.nameTema}</span>
             </div>
