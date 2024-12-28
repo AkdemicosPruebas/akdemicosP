@@ -32,7 +32,7 @@ const Header = () => {
     <header>
         <div className='div-secundario scrolled '>
         <div className='secundario'>
-          <Link to={"/"} ><div className='logo'><img src="/public/Akademicos.svg" alt="Logo" /></div></Link>
+          <Link to={"/"} ><div className='logo'><img src="/Akademicos.svg" alt="Logo" /></div></Link>
         
           <nav>
             <ul className='menu-horizontal'>
