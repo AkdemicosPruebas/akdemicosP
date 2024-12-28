@@ -1,0 +1,119 @@
+.definicion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: solid blue 2px;
+    text-align: left;
+    align-content: start;
+    margin: 0 0 1rem 0;
+}
+.def{
+    background-color: blue;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.texdef{
+    padding: 0.2rem 0.5rem;
+}
+
+.menu{
+    background-color: white !important;
+    color: black !important;
+}
+
+/* ----------------------------------------------Componente dropdown-------------------------------------- */
+.dropdown_link{
+    display: flex;
+    gap: 5px;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.dropcapitulo{
+    height: auto;
+    padding: 0;
+}
+
+.dropdown_sub{
+    display: none;
+}
+.dropdown_sub_mos{
+    display: block;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    overflow: hidden;
+}
+
+.subtema{
+    padding: 0 0 0.5rem 40px;
+    line-height: 1.1rem;
+}
+.dropdown_sub_mos li{
+    list-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lista{
+    transition: transform 0.3s ease;
+}
+.rotar{
+    transform: rotate(90deg);
+}
+/*--------------------------------- Componente Ejercicios --------------------------------------------*/
+
+.containerEjercicions{
+    width: 100%;
+    height: calc(100vh - 186px);
+    color: black;
+}
+.enunciado{
+width: 100%;
+padding: 0.5rem 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.verSolucion{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background-color: white;
+    border: solid 2px green;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem 0;
+}
+.solution{
+    text-align: justify;
+    padding: 0.5rem 0;
+}
+.mostrarSolution{
+    display: none;
+}
+.ocultarSolution{
+    display: block;
+}
+.rotarVer{
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+    border: solid 2.5px transparent;
+}
+.sinRotar{
+    transition: transform 0.3s;
+    border: solid 2.5px green;
+    display: inline-block;
+    border-radius: 0.45rem;
+}

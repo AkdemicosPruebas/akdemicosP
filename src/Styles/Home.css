@@ -1,0 +1,29 @@
+.home{
+    background-color: green;
+    height: calc(100vh - 186px);
+    width: 100%;
+    padding: 50px;
+}
+.containerHome{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 1.5rem;
+}
+.textoHome{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+.textoHome h6{
+    font-size: 1rem;
+}
+
+.ImagenInicio{
+    overflow: hidden;
+}
+.ImagenLogo{
+    display: block;
+    width: 100%;
+    min-width: 200px;
+}

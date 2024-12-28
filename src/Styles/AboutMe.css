@@ -1,0 +1,32 @@
+.containerAboutme{
+    width: 100%;
+    height: calc(100vh - 186px);
+    background-color:white;
+    align-content: center;
+    padding: 50px;
+    color: black;
+}
+.contenidoAbout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1.5rem;
+}
+.textoAbout{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+.ImagenAbout{
+    max-width: 400px;
+    min-width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.FotoAbout{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,151 @@
+*{
+  padding: 0px;
+}
+
+.maxContenedor{
+  width:100%;
+}
+.ContainerPrincipal{
+    background-color:purple;
+    width: 100%;
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: 230px auto ;
+}
+
+.indice{
+    background-color:orange;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.indice ul li {
+  list-style: none;
+}
+
+.contenido{
+    background-color: white;
+    padding: 1rem;
+    color: black;
+}
+
+.titlePrincipal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.capitulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 0 0 1rem 0;
+}
+.seccion{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 2rem 0 1rem 0;
+}
+
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    align-self: center;
+    padding: 0  0 1rem 0;
+}
+
+.imagen{
+    vertical-align: middle;
+    color: blue;
+}
+
+.fconstante{
+  padding: 0.5rem 0;
+}
+
+.colorSubtitle{
+    color: rgb(85, 85, 216);
+}
+
+/* Estilos para el modal */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+  }
+  
+  .modal-content {
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .containerImagenDef{
+    width: 100%;
+    text-align: center;
+  }
+
+  .imagenCenter{
+    padding: 0.5rem 0;
+    max-width: 500px;
+    min-width: 250px;
+  }
+
+  .containerImCreciente{
+    width: auto;
+    padding: 0.5rem 0;
+  }
+  .containerImCreciente img{
+    max-width: 500px;
+    min-width: 250px;
+  }
+  .item{
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    display: inline-block;
+    border: solid 3px white;
+  }
+  .indiceName{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .fijo{
+    position:sticky;
+    top: 80px;
+    width: 100%;
+  }
+  .seccion{
+    scroll-margin-top: 100px;
+  }
+  .capitulo{
+    scroll-margin-top: 80px;
+  }
